@@ -1,16 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.f855e6bc.css",
-    "main.js": "/static/js/main.3e8667d4.js",
+    "main.css": "/static/css/main.97792d00.css",
+    "main.js": "/static/js/main.e054b186.js",
     "static/js/453.ed3810f9.chunk.js": "/static/js/453.ed3810f9.chunk.js",
-    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/psychologist-image.jpg": "/static/media/psychologist-image.c3ba364f78aa11cd7e84.jpg",
+    "static/media/logo.png": "/static/media/logo.b3bd56d3746844af3ad6.png",
+    "static/media/ingrid.jpg": "/static/media/ingrid.4af093d9df68c3c2244c.jpg",
     "index.html": "/index.html",
-    "main.f855e6bc.css.map": "/static/css/main.f855e6bc.css.map",
-    "main.3e8667d4.js.map": "/static/js/main.3e8667d4.js.map",
+    "main.97792d00.css.map": "/static/css/main.97792d00.css.map",
+    "main.e054b186.js.map": "/static/js/main.e054b186.js.map",
     "453.ed3810f9.chunk.js.map": "/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.3e8667d4.js"
+    "static/css/main.97792d00.css",
+    "static/js/main.e054b186.js"
   ]
 }
