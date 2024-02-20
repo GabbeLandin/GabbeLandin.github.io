@@ -1,0 +1,46 @@
+/* sidebar.css */
+
+/* Styles for the entire sidebar */
+.bm-menu {
+    background-color: #8a2121; /* Background color of the sidebar */
+    padding: 2.5em 1.5em; /* Padding around the content */
+    font-size: 1.15em; /* Font size of menu items */
+  }
+  
+  /* Styles for the menu items */
+  .bm-item {
+    display: block; /* Display menu items as blocks */
+    padding: 0.8em; /* Padding around each menu item */
+    color: #fff; /* Text color of menu items */
+    text-decoration: none; /* Remove underline from links */
+  }
+  
+  /* Hover effect for menu items */
+  .bm-item:hover {
+    background-color: #555; /* Background color on hover */
+  }
+  
+  /* Styles for the close button */
+  .bm-cross {
+    background: none; /* Transparent background for the close button */
+  }
+  
+  /* Styles for the burger button */
+  .bm-burger-button {
+    position: absolute; /* Position the burger button */
+    width: 30px; /* Width of the button */
+    height: 20px; /* Height of the button */
+    top: 20px; /* Distance from the top */
+    left: 20px; /* Distance from the left */
+  }
+  
+  /* Styles for the burger icon */
+  .bm-burger-bars {
+    background-color: #c42020; /* Color of the burger icon bars */
+  }
+  
+  /* Styles for the burger icon when the menu is open */
+  .bm-burger-bars-hover {
+    background-color: #5e1010; /* Color of the burger icon bars on hover */
+  }
+  
