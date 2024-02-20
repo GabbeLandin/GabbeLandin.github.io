@@ -2,20 +2,44 @@
 /* App.css */
 
 
-.flex-container {
+body {
+  height: 100%;
   display: flex;
   justify-content: center;
   flex-direction: column;
   background-image: url("psychologist-image.jpg");
 }
-.main{
-  background-color: white;
-}
 
 .header {
   display: flex;
   align-items: flex-end;
+}
+
+.main{
+  background-color: white;
+  flex: 1 0 auto; 
+}
+
+.main-text {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
   
+}
+
+.bigtext {
+  margin: 50px;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 ul {
@@ -23,13 +47,23 @@ ul {
   display: flex;
   justify-content: space-evenly;
   flex: 1;
+  flex-wrap: wrap;
+}
+
+.rubrik {
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  width: 30vw;
 }
 
 a {
   display: inline-block;
-  padding: 10px 20px;
+  padding: 8px 16px;
   font-family: Arial, sans-serif;
-  font-size: 16px;
+  font-size: 3vw;
   font-weight: bold;
   text-decoration: none;
   color: #000000;
@@ -39,14 +73,9 @@ a {
   transition: background-color 0.3s, border-color 0.3s, color 0.3s;
 }
 
-.main-text {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.ingrid {
-  display: flex;
+h2 {
+  margin: 0;
+  font-size: 4vw;
 }
 
 .logo-image {
@@ -57,18 +86,21 @@ a {
 
 .paragraph {
   font-family: Arial, sans-serif; /* Choose a professional and easily readable font */
-  font-size: 16px; /* Adjust font size as needed */
+  font-size: 2vw; /* Adjust font size as needed */
   line-height: 1.5; /* Ensure adequate line spacing for readability */
   color: #333; /* Choose a dark color for the text */
   margin-bottom: 20px; /* Provide some spacing between paragraphs */
   max-width: 400px;
 }
 
-.footer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
+
 strong {
   font-weight: bold;
+}
+
+@media only screen and (min-width: 400px){
+  .footer {
+    position: fixed;
+    bottom: 0;
+  }
 }
