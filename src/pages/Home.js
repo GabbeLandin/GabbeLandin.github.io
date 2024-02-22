@@ -1,19 +1,14 @@
 import React from 'react';
 import '../css/App.css';
 import '../Sidebar.css';
+import "../css/home.css"
 import ingrid from '../Images/ingrid.jpg'; // Import your image file
+import sakura from '../Images/Sakura.jpeg'
 
 function Home(){
     return( 
         <div className="main">
-            <div className='bigtext'>
-            <h2>
-                Medkänslofokuserad psykoterapi;
-            </h2>
-            <h2>
-                Compassion Focused Therapy - CFT
-                </h2>
-            </div>
+            <div className='sakura'/>
             
             <div className='main-text'>
                 <div className='paragraph'>

@@ -1,13 +1,23 @@
 import React from "react"; 
 import { BrowserRouter, Route, Link } from "react-router-dom"; 
 import logo from "../Images/logo.png"
+import "../css/header.css"
 
 function Navbar() {   
-    return(     
+    return(
+    <div>
     <header className='header'>
         <img src={logo} alt="Logo" className="logo-image" />
-        
-        <nav>       
+        <div className='logotext'>
+            <h1>
+                Ingrid Landin
+            </h1>
+            <h1>
+                Psykologmotagning
+            </h1>
+            </div>
+        <div className="subheader">
+            <nav>       
             <ul>        
                 <li>           
                     <Link to="/">Home</Link>        
@@ -20,9 +30,12 @@ function Navbar() {
                 </li>       
             </ul>    
         </nav> 
-                
+        </div>
+
     </header>
-          
+    <div className="navline"/>
+
+    </div>
     ); 
 } 
 export default Navbar;

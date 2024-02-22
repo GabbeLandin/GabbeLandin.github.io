@@ -1,0 +1,7 @@
+.sakura {
+    padding-block: 15vw;
+    background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), 
+    url('../Images/Sakura.jpeg');
+    background-size: cover;
+    background-position: center;
+}
