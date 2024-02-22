@@ -7,7 +7,7 @@ body {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  background-image: url("psychologist-image.jpg");
+  background-image: url("../Images/psychologist-image.jpg");
 }
 
 .header {
@@ -27,13 +27,7 @@ body {
   flex-wrap: wrap;
 }
 
-.footer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
-  
-}
+
 
 .bigtext {
   margin: 50px;
@@ -55,8 +49,9 @@ ul {
   justify-content: center;
 }
 
-img {
+.ingrid_img {
   width: 30vw;
+  padding-block: 50px;
 }
 
 a {
@@ -98,9 +93,17 @@ strong {
   font-weight: bold;
 }
 
-@media only screen and (min-width: 400px){
-  .footer {
-    position: fixed;
-    bottom: 0;
+@media only screen and (min-width: 850px){
+  .paragraph {
+    font-size: 17px;
+  }
+  .ingrid_img {
+    width: 255px;
+  }
+  h2 {
+    font-size: 34px;
+  }
+  a{
+    font-size: 25.5px;
   }
 }
