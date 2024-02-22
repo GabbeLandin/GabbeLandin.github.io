@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.399e2e52.css",
-    "main.js": "/static/js/main.cc12f26f.js",
+    "main.css": "/static/css/main.a3e6ef09.css",
+    "main.js": "/static/js/main.8fc89dc1.js",
     "static/js/453.ed3810f9.chunk.js": "/static/js/453.ed3810f9.chunk.js",
-    "static/media/psychologist-image.jpg": "/static/media/psychologist-image.c3ba364f78aa11cd7e84.jpg",
-    "static/media/logo.png": "/static/media/logo.b3bd56d3746844af3ad6.png",
+    "static/media/logo.png": "/static/media/logo.fc84e0bfdee739c06019.png",
+    "static/media/Sakura.jpeg": "/static/media/Sakura.bbf2610bca3e7123c974.jpeg",
     "static/media/ingrid.jpg": "/static/media/ingrid.4af093d9df68c3c2244c.jpg",
     "index.html": "/index.html",
-    "main.399e2e52.css.map": "/static/css/main.399e2e52.css.map",
-    "main.cc12f26f.js.map": "/static/js/main.cc12f26f.js.map",
+    "main.a3e6ef09.css.map": "/static/css/main.a3e6ef09.css.map",
+    "main.8fc89dc1.js.map": "/static/js/main.8fc89dc1.js.map",
     "453.ed3810f9.chunk.js.map": "/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.399e2e52.css",
-    "static/js/main.cc12f26f.js"
+    "static/css/main.a3e6ef09.css",
+    "static/js/main.8fc89dc1.js"
   ]
 }
