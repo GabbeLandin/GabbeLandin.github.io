@@ -10,7 +10,7 @@ import Layout from "./pages/Layout"
 
 export default function App() {   
   return (     
-    <BrowserRouter>       
+    <BrowserRouter>      
       <Routes>         
         <Route path="/" element={<Layout />}>           
         <Route index element={<Home />} />           

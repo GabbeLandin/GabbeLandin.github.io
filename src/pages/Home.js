@@ -1,6 +1,5 @@
 import React from 'react';
 import '../css/App.css';
-import '../Sidebar.css';
 import "../css/home.css"
 import ingrid from '../Images/ingrid.jpg'; // Import your image file
 import sakura from '../Images/Sakura.jpeg'

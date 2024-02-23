@@ -5,3 +5,10 @@
     width: 100%;
     
   }
+
+  .footline{
+    min-width: 100vw;
+    padding-block: 2px;
+    background: #aa2e2d;
+    margin-bottom: 10px;
+  }
