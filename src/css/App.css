@@ -8,6 +8,7 @@ body {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
 }
 
 h1 {
@@ -50,10 +51,10 @@ h1 {
 h2 {
   margin: 0;
   font-size: 4vw;
+  color: #aa2e2d;
 }
 
 .paragraph {
-  font-family: Arial, sans-serif; /* Choose a professional and easily readable font */
   font-size: 2vw; /* Adjust font size as needed */
   line-height: 1.5; /* Ensure adequate line spacing for readability */
   color: #333; /* Choose a dark color for the text */

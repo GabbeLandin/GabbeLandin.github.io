@@ -5,3 +5,8 @@
     background-size: cover;
     background-position: center;
 }
+.ingrid-home {
+    padding-block: 0;
+    width: 200px;
+    border: 4px solid #aa2e2d;
+}

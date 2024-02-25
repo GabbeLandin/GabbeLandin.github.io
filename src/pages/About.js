@@ -1,9 +1,28 @@
-import React from "react";
+import React, { useState, useEffect } from 'react';
+import aboutText from "../texts/about.txt"
+import image from "../Images/ingrid.jpg"
+
+
+
+
 
 function About(){
+    const [fileContent, setFileContent] = useState('');
+
+    useEffect(() => {
+        fetch(aboutText)
+          .then(response => response.text())
+          .then(text => {
+            setFileContent(text);
+          })
+          .catch(error => console.error('Error fetching the file:', error));
+      }, []);
     return(
-        <div>
-            hej
+        <div className='main-text'>
+            <div className='paragraph'>
+                <p>{fileContent}</p>
+            </div>
+            <img src={image}/>
         </div>
     )
 }
