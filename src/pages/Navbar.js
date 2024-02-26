@@ -1,100 +1,10 @@
-import React, { useEffect, useState } from "react"; 
-import { BrowserRouter, Route, NavLink, useLocation } from "react-router-dom"; 
-import { fallDown as Menu } from 'react-burger-menu'
+import React from "react"; 
+import {NavLink } from "react-router-dom"; 
 import logo from "../Images/logo.png"
 import "../css/header.css"
 
 
 function Navbar() {   
-    const location = useLocation();
-/*
-    <Menu right width={"100%"}>
-                    <NavLink style={({ isActive }) => ({
-                                    color: isActive
-                                    ? "#aa2e2d"
-                                    : "black",
-                                    })}
-                                    to="/">Home</NavLink>   
-                    <NavLink style={({ isActive }) => ({
-                                    color: isActive
-                                    ? "#aa2e2d"
-                                    : "black",
-                                    })}
-                                    to="/about">About</NavLink>  
-                    <NavLink style={({ isActive }) => ({
-                                    color: isActive
-                                    ? "#aa2e2d"
-                                    : "black",
-                                    })}
-                                    to="/contact">Contact</NavLink>  
-                </Menu>
-    */
-    const navbar = () => {
-        if(window.screen.width < 850){
-            return(
-                <nav className="links">       
-                <ul>        
-                    <li>           
-                        <NavLink style={({ isActive }) => ({
-                                    color: isActive
-                                    ? "#aa2e2d"
-                                    : "black",
-                                    })}
-                                    to="/">Home</NavLink>        
-                    </li>         
-                    <li>           
-                        <NavLink style={({ isActive }) => ({
-                                    color: isActive
-                                    ? "#aa2e2d"
-                                    : "black",
-                                    })}
-                                    to="/about">About</NavLink>         
-                    </li>         
-                    <li>           
-                        <NavLink style={({ isActive }) => ({
-                                    color: isActive
-                                    ? "#aa2e2d"
-                                    : "black",
-                                    })}
-                                    to="/contact">Contact</NavLink>         
-                    </li>       
-                </ul>    
-            </nav> 
-            )
-        }
-        else
-         return(
-            <nav className="links">       
-                <ul>        
-                    <li>           
-                        <NavLink style={({ isActive }) => ({
-                                    color: isActive
-                                    ? "#aa2e2d"
-                                    : "black",
-                                    })}
-                                    to="/">Home</NavLink>        
-                    </li>         
-                    <li>           
-                        <NavLink style={({ isActive }) => ({
-                                    color: isActive
-                                    ? "#aa2e2d"
-                                    : "black",
-                                    })}
-                                    to="/about">About</NavLink>         
-                    </li>         
-                    <li>           
-                        <NavLink style={({ isActive }) => ({
-                                    color: isActive
-                                    ? "#aa2e2d"
-                                    : "black",
-                                    })}
-                                    to="/contact">Contact</NavLink>         
-                    </li>       
-                </ul>    
-            </nav> 
-         )
-    }
-
     return(
     <div>
     <header className='header'>
@@ -109,7 +19,42 @@ function Navbar() {
                 </h1>
                 </div>
         </a>
-        {navbar()}
+        <nav className="links">       
+                <ul>        
+                    <li>           
+                        <NavLink style={({ isActive }) => ({
+                                    color: isActive
+                                    ? "#aa2e2d"
+                                    : "black",
+                                    })}
+                                    to="/">Home</NavLink>        
+                    </li>         
+                    <li>           
+                        <NavLink style={({ isActive }) => ({
+                                    color: isActive
+                                    ? "#aa2e2d"
+                                    : "black",
+                                    })}
+                                    to="/about">About</NavLink>         
+                    </li>         
+                    <li>           
+                        <NavLink style={({ isActive }) => ({
+                                    color: isActive
+                                    ? "#aa2e2d"
+                                    : "black",
+                                    })}
+                                    to="/erbjudanden">Erbjudanden</NavLink>         
+                    </li>   
+                    <li>           
+                        <NavLink style={({ isActive }) => ({
+                                    color: isActive
+                                    ? "#aa2e2d"
+                                    : "black",
+                                    })}
+                                    to="/contact">Contact</NavLink>         
+                    </li>       
+                </ul>    
+            </nav> 
     </header>
     <div className="navline"/>
 

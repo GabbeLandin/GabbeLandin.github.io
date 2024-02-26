@@ -1,8 +1,8 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import '../css/App.css';
 import "../css/home.css"
 import ingrid from '../Images/Bild.png'; // Import your image file
-import sakura from '../Images/Sakura.jpeg'
 
 function Home(){
     return( 
@@ -26,6 +26,7 @@ function Home(){
                 <img src={ingrid} alt="test" className='ingrid-home'/>
             </div>
             <div className='offers'>
+                <NavLink to="erbjudanden/privatperson" > 
                 <div className='offer'>
                     <h1>
                         Privatperson
@@ -34,7 +35,8 @@ function Home(){
                         Har massa saker som är jätterbra hej hejoj inaosubd oiabsdo baib ibaousdop
                     </p>
                 </div>
-                
+                </ NavLink>
+                <NavLink to="erbjudanden/yrkesperson" > 
                 <div className='offer'>
                     <h1>
                         Yrkesperson
@@ -43,6 +45,7 @@ function Home(){
                         Har massa saker som är jätterbra hej hejoj inaosubd oiabsdo baib ibaousdop
                     </p>
                 </div>
+                </ NavLink>
             </div>
         </div>
     )

@@ -7,6 +7,9 @@ import Home from "./pages/Home";
 import Contact from "./pages/Contact"; 
 import About from "./pages/About"; 
 import Layout from "./pages/Layout"
+import Erbjudanden from './pages/Erbjudanden';
+import Privatperson from './pages/Privatperson';
+import Yrkesperson from './pages/Yrkesperson';
 
 export default function App() {   
   return (     
@@ -15,7 +18,11 @@ export default function App() {
         <Route path="/" element={<Layout />}>           
         <Route index element={<Home />} />           
         <Route path="about" element={<About />} />           
-        <Route path="contact" element={<Contact />} />           
+        <Route path="contact" element={<Contact />} />    
+        <Route path="erbjudanden" element={<Erbjudanden />} />
+        <Route path="erbjudanden/privatperson" element={<Privatperson />} />
+        <Route path="erbjudanden/yrkesperson" element={<Yrkesperson />} />
+
         </Route>       
       </Routes>     
     </BrowserRouter>   
