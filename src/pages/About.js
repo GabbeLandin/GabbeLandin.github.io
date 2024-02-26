@@ -20,6 +20,9 @@ function About(){
     return(
         <div className='main-text'>
             <div className='paragraph'>
+                <h2 className='rubrik'>
+                    Vem är jag
+                </h2>
                 <p>{fileContent}</p>
             </div>
             <img src={image}/>

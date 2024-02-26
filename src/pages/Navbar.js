@@ -30,7 +30,6 @@ function Navbar() {
                 </Menu>
     */
     const navbar = () => {
-        console.log(window.screen.width)
         if(window.screen.width < 850){
             return(
                 <nav className="links">       

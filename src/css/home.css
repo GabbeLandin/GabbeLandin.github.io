@@ -1,12 +1,51 @@
 .sakura {
-    padding-block: 15vw;
+    padding-block: 12vw;
     background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), 
     url('../Images/Sakura.jpeg');
     background-size: cover;
     background-position: center;
 }
 .ingrid-home {
-    padding-block: 0;
     width: 200px;
     border: 4px solid #aa2e2d;
+    margin: 20px;
+}
+.bigimage {
+    max-height: 18vw;
+  }
+
+.offer {
+    border: 2px solid rgba(128, 128, 128, 0.1);
+    padding: 10px;
+    margin: 10px;
+}
+.offer:hover{
+    background-color: rgba(128, 128, 128, 0.197);
+}
+
+.offers {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-right: 40vw;
+}
+
+.offers-p{
+    display: flex;
+    align-items: center;
+    width: 150px;
+}
+
+@media only screen and (max-width: 850px){
+    .offers {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding-right: 0vw;
+
+    }
+    .offers > p {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
 }
