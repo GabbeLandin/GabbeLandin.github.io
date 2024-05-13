@@ -18,7 +18,7 @@ function Navbar() {
                     Psykologmotagning
                 </h1>
                 </div>
-        </a>
+        </a >
         <nav className="links">       
                 <ul>        
                     <li>           

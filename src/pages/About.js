@@ -40,14 +40,13 @@ function About(){
                     gruppbehandling, mindfulness och utbildning inom vården.
                     Jag är medlem i Sveriges Psykologförbund och Psykologföretagarna. Det innebär att
                     jag har de försäkringar som krävs samt följer förbundets etiska riktlinjer. Jag är även
-                    medlem i intresseföreningarna 
-                    <a  className='link' href='https://sfkbt.se'> Svenska föreningen för KBT (sfKBT) </a>
+                    medlem i intresseföreningarna <a  className='link' href='https://sfkbt.se'> Svenska föreningen för KBT (sfKBT) </a>
                     ,
-                    <a href='https://compassionatemind.se/'>Svenska föreningen för compassionfokuserad terapi</a>
+                    <a className='link' href='https://compassionatemind.se/'>Svenska föreningen för compassionfokuserad terapi</a>
                     , 
-                    <a href='https://www.compassionatemind.co.uk/'>Compassionate Mind UK</a>
+                    <a className='link' href='https://www.compassionatemind.co.uk/'>Compassionate Mind UK</a>
                     ,
-                    <a href='https://www.schematherapysociety.org/'>ISST-International association for schematherapy</a>
+                    <a className='link' href='https://www.schematherapysociety.org/'>ISST-International association for schematherapy</a>
                     
                     </p>
             </div>

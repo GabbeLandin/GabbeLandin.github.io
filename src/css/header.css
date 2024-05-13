@@ -17,6 +17,7 @@
   .logo-image {
     max-height: 150px;
     max-width: 150px;
+    padding-right: 20px;
   }
 
   ul {

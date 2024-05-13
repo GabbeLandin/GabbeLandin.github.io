@@ -8,3 +8,18 @@
     margin-top: 50px;
     margin-bottom: 50px;
   }
+
+  .link {
+    font-size: calc(8px + 1vw); /* Adjust font size as needed */
+    margin-block-start: 0em;
+    color: #333; /* Choose a dark color for the text */
+    display: inline-block;
+    padding: 0px;
+    text-decoration: none;
+  }
+
+  @media only screen and (min-width: 850px){
+    .link {
+      font-size: 17px;
+    }
+}
