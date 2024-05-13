@@ -58,8 +58,8 @@
   a:hover {
     color: #aa2e2d;
   }
-  
-  @media only screen and (max-width: 850px){
+
+  @media only screen and (max-width: 1260px){
     .header{
       flex-direction: column;
     }
@@ -71,12 +71,18 @@
     }
     .logo-image{
       width: 15vw;
+      padding-right: 0px;
     }
     .logotext {
       display: flex;
       flex-direction: column;
       align-items: center;
     }
+  }
+  
+  @media only screen and (max-width: 850px){
+    
+
     h1 {
       font-size: 3vw;
     }
