@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.80cbc14b.css",
-    "main.js": "/static/js/main.fa46d80b.js",
+    "main.css": "/static/css/main.4ded6478.css",
+    "main.js": "/static/js/main.70573408.js",
     "static/js/453.ed3810f9.chunk.js": "/static/js/453.ed3810f9.chunk.js",
     "static/media/Bild.png": "/static/media/Bild.ea35bbe529ccaea05f7d.png",
     "static/media/logo.png": "/static/media/logo.fc84e0bfdee739c06019.png",
     "static/media/Sakura.jpeg": "/static/media/Sakura.bbf2610bca3e7123c974.jpeg",
     "static/media/ingrid.jpg": "/static/media/ingrid.4af093d9df68c3c2244c.jpg",
+    "static/media/about.txt": "/static/media/about.bce43cfcdc1ac0803d54.txt",
     "index.html": "/index.html",
-    "static/media/about.txt": "/static/media/about.8db2ba4980fa7d57725e.txt",
-    "main.80cbc14b.css.map": "/static/css/main.80cbc14b.css.map",
-    "main.fa46d80b.js.map": "/static/js/main.fa46d80b.js.map",
+    "main.4ded6478.css.map": "/static/css/main.4ded6478.css.map",
+    "main.70573408.js.map": "/static/js/main.70573408.js.map",
     "453.ed3810f9.chunk.js.map": "/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.80cbc14b.css",
-    "static/js/main.fa46d80b.js"
+    "static/css/main.4ded6478.css",
+    "static/js/main.70573408.js"
   ]
 }
