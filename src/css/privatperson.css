@@ -1,0 +1,10 @@
+.text{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 100px;
+}
+.undertext{
+    margin-top: 50px;
+    max-width: 300px;
+}

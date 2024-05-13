@@ -10,6 +10,7 @@ import Layout from "./pages/Layout"
 import Erbjudanden from './pages/Erbjudanden';
 import Privatperson from './pages/Privatperson';
 import Yrkesperson from './pages/Yrkesperson';
+import English from './pages/English';
 
 export default function App() {   
   return (     
@@ -17,12 +18,13 @@ export default function App() {
       <Routes>         
         <Route path="/" element={<Layout />}>           
         <Route index element={<Home />} />           
-        <Route path="about" element={<About />} />           
-        <Route path="contact" element={<Contact />} />    
-        <Route path="erbjudanden" element={<Erbjudanden />} />
-        <Route path="erbjudanden/privatperson" element={<Privatperson />} />
-        <Route path="erbjudanden/yrkesperson" element={<Yrkesperson />} />
-
+        <Route path="Om mig" element={<About />} />              
+        <Route path="Mitt utbud" element={<Erbjudanden />} />
+        <Route path="Kontakt" element={<Contact />} /> 
+        <Route path="Inspelade övningar" element={<Contact />} /> 
+        <Route path="Mitt utbud/privatperson" element={<Privatperson />} />
+        <Route path="Mitt utbud/yrkesperson" element={<Yrkesperson />} />
+        <Route path="Mitt utbud/english" element={<English />} />
         </Route>       
       </Routes>     
     </BrowserRouter>   

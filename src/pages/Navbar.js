@@ -27,7 +27,7 @@ function Navbar() {
                                     ? "#aa2e2d"
                                     : "black",
                                     })}
-                                    to="/">Home</NavLink>        
+                                    to="/">Hem</NavLink>        
                     </li>         
                     <li>           
                         <NavLink style={({ isActive }) => ({
@@ -35,7 +35,7 @@ function Navbar() {
                                     ? "#aa2e2d"
                                     : "black",
                                     })}
-                                    to="/about">About</NavLink>         
+                                    to="/Om mig">Om mig</NavLink>         
                     </li>         
                     <li>           
                         <NavLink style={({ isActive }) => ({
@@ -43,7 +43,7 @@ function Navbar() {
                                     ? "#aa2e2d"
                                     : "black",
                                     })}
-                                    to="/erbjudanden">Erbjudanden</NavLink>         
+                                    to="/Mitt utbud">Mitt utbud</NavLink>         
                     </li>   
                     <li>           
                         <NavLink style={({ isActive }) => ({
@@ -51,8 +51,16 @@ function Navbar() {
                                     ? "#aa2e2d"
                                     : "black",
                                     })}
-                                    to="/contact">Contact</NavLink>         
-                    </li>       
+                                    to="/Kontakt">Kontakt</NavLink>         
+                    </li>    
+                    <li>           
+                        <NavLink style={({ isActive }) => ({
+                                    color: isActive
+                                    ? "#aa2e2d"
+                                    : "black",
+                                    })}
+                                    to="/Inspelade övningar">Inspelade övningar</NavLink>         
+                    </li>     
                 </ul>    
             </nav> 
     </header>

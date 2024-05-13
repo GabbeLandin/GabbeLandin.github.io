@@ -6,10 +6,10 @@ export default function Footer(){
         <footer className='footer'>
             <div className="footline"/>
 
-            <div><strong>Adress | </strong>potatisgatan 1337</div>
-            <div><strong>Telefon | </strong>133713371337</div>
-            <div><strong>E-post | </strong>potatis42@1337.com</div>
-            <p>&copy; 2024 Dr. Ingrid Landin's Practice. All rights reserved.</p>
+            <div><strong>Adress | </strong>Humlegårdsgatan 5, 1 tr, 114 46 Stockholm</div>
+            <div><strong>Telefon | </strong>072 546 1367</div>
+            <div><strong>E-post | </strong>PsykologIngridLandin@gmail.com</div>
+            <p>&copy; 2024 Ingrid Landin's Practice. All rights reserved.</p>
         </footer>
     )
 }

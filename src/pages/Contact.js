@@ -7,9 +7,9 @@ function Contact(){
             <h1>
                 Kontakta mig genom e-post
             </h1>
-            <h2>
-                <a className="button" href="mailto:email@email.de">Kontakt</a>
-            </h2>
+            <p>
+                PsykologIngridLandin@gmail.com
+            </p>
         </div>
     )
 }
