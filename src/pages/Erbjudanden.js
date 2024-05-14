@@ -22,16 +22,34 @@ export default function Erbjudanden(){
                 <div className="form">
                     <h2>Kognitiv beteendeterapi, KBT</h2>
                     <p>
-
+                    I kognitiv beteendeterapi fokuserar behandlingen på de tanke- och beteendemönster
+                    som har bidragit till att utveckla och upprätthålla de svårigheterna och lidande man
+                    vill få hjälp med. Metoden är flexibel och kan användas vid de flesta problem. I
+                    behandlingen arbetar man med att bli medveten om och förändra sina mönster. På
+                    så sätt uppstår även en förändring av känslor man plågas av som nedstämdhet, oro
+                    eller ångest. Man arbetar även med hur problemen har uppstått för att öka
+                    förståelsen, men fokus är i de flesta fall på här och nu. KBT har starkt vetenskapligt
+                    stöd för en lång rad tillstånd, framförallt olika ångesttillstånd och depression.
                     </p>
                 </div>
                 <div className="form">
                     <h2>Schematerapi</h2>
                     <p>
-                        Schematerapi är en evidensbaserad, inovativ och integrativ terapiform. Den är en vidareutveckling av KBT, som fokuserar på känslomässiga behov och hur vi lärt oss att hantera behov och känslor. 
-                        I schematerapi får du hjälp med att hantera problematiska livsteman, områden i livet där vi kan känna oss sårbara. 
-                        Ofta är det sårbarheter som aktiveras i nära relationer, men även i yrkeslivet och med vänner. 
-                        Med scheman avses den kombination av tankar, känslor, beteenden och minnen som är associerade med med olika känslomässiga behov.
+                    Schematerapi är en vidareutveckling av KBT, som fokuserar på
+                    känslomässiga behov och hur vi lärt oss att hantera våra behov och
+                    känslor i relation till andra. Vi har alla behov av att känna oss sedda,
+                    älskade, uppskattade mm, men kan av olika anledningar ha svårigheter
+                    med att uttrycka behoven och att tillgodo se dem. Om det funnits
+                    många erfarenheter av att inte ha blivit bemött på sätt som vi har
+                    behövt av människor vi varit beroende av, kan vi ha utvecklat olika sätt
+                    att skydda oss från att känna de känslor som är förknippade med de
+                    ofta smärtsamma erfarenheterna. Strategier som sedan i sin tur skapar
+                    lidande för oss i livet då de inte hjälper oss att få det vi behöver. Fokus i
+                    schematerapi är att få hjälp med problematiska relationella teman i
+                    livet. Ofta är det sårbarheter som aktiveras i nära relationer, men även i
+                    yrkeslivet och med vänner. Med scheman avses den kombination av
+                    tankar, känslor, beteenden och minnen som är associerade med olika
+                    känslomässiga behov.
                     </p>
                 </div>
             </div>
