@@ -1,0 +1,26 @@
+.textcontainer{
+    display: flex;
+}
+
+.text{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 100px;
+}
+.undertext{
+    margin-top: 50px;
+    max-width: 50vw;
+}
+@media only screen and (max-width: 900px){
+.textcontainer{
+    flex-direction: column;
+}
+.text{
+    margin: 30px;
+}
+.undertext{
+    margin-top: 20px;
+    max-width: 50vw;
+}
+}

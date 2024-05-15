@@ -40,7 +40,7 @@ function About(){
                     gruppbehandling, mindfulness och utbildning inom vården.
                     Jag är medlem i Sveriges Psykologförbund och Psykologföretagarna. Det innebär att
                     jag har de försäkringar som krävs samt följer förbundets etiska riktlinjer. Jag är även
-                    medlem i intresseföreningarna <a  className='link' href='https://sfkbt.se'> Svenska föreningen för KBT (sfKBT) </a>
+                    medlem i intresseföreningarna <a className='link' href='https://sfkbt.se'> Svenska föreningen för KBT (sfKBT) </a>
                     ,
                     <a className='link' href='https://compassionatemind.se/'>Svenska föreningen för compassionfokuserad terapi</a>
                     , 
