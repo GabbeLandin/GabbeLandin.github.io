@@ -15,7 +15,7 @@ function Navbar() {
                     Ingrid Landin
                 </h1>
                 <h1>
-                    Psykologmotagning
+                    Psykologmottagning
                 </h1>
                 </div>
         </a >
